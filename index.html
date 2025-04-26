@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anamika Kumari - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      border-bottom: 2px solid #8e24aa;
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border: 4px solid #8e24aa;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      color: #6a1b9a;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #7b1fa2;
+      font-weight: 600;
+    }
+
+    .contact a:hover {
+      color: #4a148c;
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      color: #6a1b9a;
+      border-left: 5px solid #ab47bc;
+      padding-left: 15px;
+      margin-bottom: 15px;
+    }
+
+    .section p, .section ul, .section ol {
+      padding-left: 15px;
+    }
+
+    ul, ol {
+      list-style: disc;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+      background-color: #ba68c8;
+      color: white;
+    }
+
+    table tr:hover {
+      background-color: #f3e5f5;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 700px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .header img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <img src="Anamika.jpeg" alt="Anamika Photo">
+      <div>
+        <h1>Anamika Kumari</h1>
+        <div class="contact">
+          📧 <a href="mailto:anamikakumari2@gmail.com">anamikakumari2@gmail.com</a> |
+          🔗 <a href="https://linkedin.com/in/anamika" target="_blank">LinkedIn</a> |
+          📱 <a href="tel:+917064698668">+91-7064698668</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Hello, I'm Anamika Kumari from Sitamarhi district, Bihar. I'm a passionate web developer and programmer, currently pursuing B.Tech at Government Engineering College Vaishali. I love exploring new technologies and building efficient code.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>B.Tech - CSE</td>
+          <td>BEU University</td>
+          <td>2023</td>
+          <td>8.5 CGPA</td>
+        </tr>
+        <tr>
+          <td>Diploma - CSE</td>
+          <td>Government Women's Polytechnic, Muzaffarpur</td>
+          <td>2024</td>
+          <td>8.2 CGPA</td>
+        </tr>
+        <tr>
+          <td>10th (SSC)</td>
+          <td>High School Janakpur Road, Sitamarhi</td>
+          <td>2020</td>
+          <td>65%</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Git, GitHub, Version Control</li>
+        <li>Python, C++</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Quick learner and adaptive</li>
+        <li>Good communication skills</li>
+        <li>Problem-solving attitude</li>
+        <li>Team player</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Hobbies</h2>
+      <ol>
+        <li>Playing Kabbadi</li>
+        <li>Reading Tech Blogs</li>
+        <li>Coding Challenges</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Declaration</h2>
+      <p>I hereby declare that all the information provided above is true to the best of my knowledge.</p>
+      <p><strong>Place:</strong> Sitamarhi, Bihar</p>
+      <p><strong>Date:</strong> April 22, 2025</p>
+      <p><strong>Signature:</strong> Anamika</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
